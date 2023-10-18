@@ -1,0 +1,79 @@
+Monotonic (fast)                                                            Snake (fast)
+Score               Highest Tile                                            Score               Highest Tile
+802                 512                                                     2714                2048
+946                 512                                                     2136                1024
+580                 256                                                     2930                2048
+1382                1024                                                    2888                2048
+1608                1024                                                    506                 256
+1718                1024                                                    1032                512
+1256                1024                                                    2104                1024
+550                 256                                                     1424                512
+572                 256                                                     1118                512
+1114                512                                                     2050                1024                                                     
+986                 512                                                     1186                512
+2012                1024                                                    2144                1024
+1166                512                                                     1194                5121
+1536                1024                                                    576                 1024
+1292                1024                                                    1578                1024
+
+(avg)  (mode)  (high score)  (low score)  (highest tile)                    (avg)  (mode)  (high score)  (low score)  (highest tile)
+1168    1024       2012          550           1024                         1772    1024       2930          506          2048
+
+Messing around with heurstic numbers and addition of a new heuristic that keeps highest in corner.
+Snake (fast)
+Score               Highest Tile
+4018                2048
+1170                 512
+2224                1024
+2954                2048
+3138                2048
+1614                1024
+1154                 512
+1954                1024
+1302                 512
+1062                 512
+1596                1024
+1238                1024
+1138                 512
+1906                1024
+1438                1024
+
+(avg)   (mode)  (high score)  (low score)  (highest tile)
+1860.4   1024      4018          1138           2048
+
+More heuristic weighting changes.
+Score               Highest Tile
+2534                2048
+532                 256
+1456                1024
+2224                1024
+1080                512
+
+1646                1024
+
+3410                2048
+1360                1024
+1522                1024
+
+(normal)
+3634                2048
+1720                1024
+1188                 512
+1972                1024
+2272                1024
+
+(final) fast
+Score               Highest Tile
+3062                2048
+1288                1024
+910                 512
+1986                1024
+2166                1024
+1604                1024
+2112                1024
+1126                512
+3092                2048
+698                 256
+
+(avg)   (mode)  (high score)  (low score)  (highest tile)
+1807     1024       3092         698           2048
